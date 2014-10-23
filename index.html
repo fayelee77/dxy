@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>丁当铺</title>
+    <meta charset="utf-8">
+    <link href="./css/dxy.css" rel="stylesheet"><!--自定义CSS-->
+</head>
+<body>
+<!--顶部导航-->
+<header>
+    <div class="nav-top">
+        <div class="wrap">
+            <ul class="nav-top-lf fl">
+                <li><a target="_blank" href="http://www.dxy.cn/">丁香园</a></li><!--
+                --><li><a href="http://www.dxy.cn/bbs/index.html">论坛</a></li><!--
+                --><li><a href="http://www.biomart.cn/">丁香通</a></li><!--
+                --><li><a href="http://i.dxy.cn/">丁香客</a></li><!--
+                --><li><a href="http://www.jobmd.cn/">人才</a></li><!--
+                --><li><a href="http://paper.pubmed.cn/">文献求助</a></li><!--
+                --><li><a href="http://d.dxy.cn/">丁香文档</a></li><!--
+                --><li class="el1"><a href="javascript:void(0)">更多</a>
+                    <div class="hide more-el1 pa" style="">
+                        <ul>
+                            <li><a target="_blank" href="http://bbs.dxy.cn/">论坛</a></li><!--
+                            --><li><a target="_blank" href="http://meeting.dxy.cn/">会议</a></li><!--
+                            --><li><a target="_blank" href="http://www.dxyer.cn/">博客</a></li><!--
+                            --><li><a target="_blank" href="http://drugs.dxy.cn/">用药助手</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="nav-top-rh fr">
+                    <li><a>登录</a></li>
+                    <li class="el2"><a>第三方登录</a>
+                        <div class="hide more-el2 pa">
+                            <div class="thirdParty_access" id="login3Lst">
+                                <a href="https://auth.dxy.cn/auth.do?id=weixin&amp;service=http://www.dxy.cn" id="13" class="s0">微信登录</a>
+                                <a href="https://auth.dxy.cn/auth.do?id=qq&amp;service=http://www.dxy.cn" id="8" class="s1">QQ账号</a>
+                                <a href="https://auth.dxy.cn/auth.do?id=weibo&amp;service=http://www.dxy.cn" id="9" class="s2">新浪微博账号</a>
+                                <a href="https://auth.dxy.cn/auth.do?id=renren&amp;service=http://www.dxy.cn" id="10" class="s3">人人网账号</a>
+                                <a href="https://auth.dxy.cn/auth.do?id=hotmail&amp;service=http://www.dxy.cn" id="11" class="s4">MSN账号</a>
+                                <a href="https://auth.dxy.cn/auth.do?id=google&amp;service=http://www.dxy.cn" id="12" class="s5">Google账号</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a>注册</a></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--logo  title-->
+<div class="wrap">
+    <a class="logo block" href=""><img src="./img/logo.png" alt="logo" class="block"/></a>
+    <nav>
+        <ul class="nav-bar">
+            <li class="all fl block"> <a href="/dmall/list.htm">全部礼品分类</a></li><!--
+        --><li class="cur fl block"><a href="/dmall.htm">首页</a></li><!--
+        --><li class="fl block"><a href="http://www.dxy.cn/bbs/topic/20516161" target="_blank">赚丁当</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="main wrap clearfix">
+<!--左侧导航-->
+    <nav class="main-fl fl pr">
+        <ul class="pr">
+            <li>
+                <a href="/dmall/list/1568.htm" onmouseover="showMask(this)">
+                    数码产品<em>（8）</em>
+                </a>
+                <ul class="list">
+                    <li>
+                        <a href="/dmall/list/77286.htm" onmouseover="showMask(this)">手机<em>（1）</em></a>
+                    </li>
+                    <li>
+                        <a href="/dmall/list/77287.htm" onmouseover="showMask(this)">平板电脑<em>（3）</em></a>
+                    </li>
+                    <li>
+                        <a href="/dmall/list/77288.htm" onmouseover="showMask(this)">其他<em>（4）</em></a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="/dmall/list/1569.htm" onmouseover="showMask(this)">
+                    医学书籍<em>（8）</em>
+                </a>
+            </li>
+            <li>
+                <a href="/dmall/list/1570.htm" onmouseover="showMask(this)">
+                    丁香园纪念品<em>（10）</em>
+                </a>
+            </li>
+            <li>
+                <a href="/dmall/list/77290.htm" onmouseover="showMask(this)">
+                    应用与软件<em>（2）</em>
+                </a>
+            </li>
+            <li>
+                <a href="/dmall/list/77289.htm" onmouseover="showMask(this)">
+                    实验室用品<em>（0）</em>
+                </a>
+            </li>
+        </ul>
+        <!-- 搜索框 -->
+        <div class="nav-search fl">
+            <form method="get" id="search" action="">
+                <input type="text" maxlength="30" name="s" id="D_input" class="input born outn" placeholder="" value="">
+            </form>
+       	</div>
+        <!--鼠标滑动背景-->
+        <div id="mask" class="pa hide"></div>
+    </nav>
+    <div class="main-fr fr">
+        <!--广告轮播-->
+        <div class="showAd block pr">
+            <ul id="imgList" class="pa">
+                <li id="0"><a href="" target="_blank"><img src="./img/ad1.jpg" /></a></li><!--
+                --><li id="1"><a href="" target="_blank"><img src="./img/ad5.jpg" /></a></li>
+            </ul>
+            <ul id="imgDot" class="pa">
+                <li><a title="你的科研专属试用" data-name="0"></a></li>
+                <li><a title="打牌试用" data-name="1" class="current"></a></li>
+            </ul>
+        </div>
+        <!--内容部分-->
+        <div class="content">
+            <section>
+                <h3>丁当推荐<em>HOT</em></h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/l1.png" alt=""  title="" />
+                                <p class="name">过滤鼻夹[妈咪爱]</p>
+                                <p class="price">丁当：<em>150.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/l2.jpg" alt=""  title="" />
+                                <p class="name">实用循证医学方法学</p>
+                                <p class="price">丁当：<em>920.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/l3.png" alt=""  title="" />
+                                <p class="name">医药大词典激活码</p>
+                                <p class="price">丁当：<em>200.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/l4.png" alt=""  title="" />
+                                <p class="name">丁香园抱枕</p>
+                                <p class="price">丁当：<em>499.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!--数码产品-->
+            <section>
+                <h3><a href="">数码产品</a>
+                    <a class="fr more" href="">More>></a>
+                </h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/s1.png" alt=""  title="" />
+                                <p class="name">过滤鼻夹[妈咪爱]</p>
+                                <p class="price">丁当：<em>150.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/s2.png" alt=""  title="" />
+                                <p class="name">实用循证医学方法学</p>
+                                <p class="price">丁当：<em>920.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/s3.jpg" alt=""  title="" />
+                                <p class="name">医药大词典激活码</p>
+                                <p class="price">丁当：<em>200.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/s4.png" alt=""  title="" />
+                                <p class="name">丁香园抱枕</p>
+                                <p class="price">丁当：<em>499.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!--医学书籍-->
+            <section>
+                <h3><a href="">医学书籍</a>
+                    <a class="fr more" href="">More>></a>
+                </h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/y1.png" alt=""  title="" />
+                                <p class="name">过滤鼻夹[妈咪爱]</p>
+                                <p class="price">丁当：<em>150.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/y2.jpg" alt=""  title="" />
+                                <p class="name">实用循证医学方法学</p>
+                                <p class="price">丁当：<em>920.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/l2.jpg" alt=""  title="" />
+                                <p class="name">医药大词典激活码</p>
+                                <p class="price">丁当：<em>200.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/y4.png" alt=""  title="" />
+                                <p class="name">丁香园抱枕</p>
+                                <p class="price">丁当：<em>499.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!--丁香园纪念品-->
+            <section>
+                <h3><a href="">丁香园纪念品</a>
+                    <a class="fr more" href="">More>></a>
+                </h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/d1.png" alt=""  title="" />
+                                <p class="name">过滤鼻夹[妈咪爱]</p>
+                                <p class="price">丁当：<em>150.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/d2.png" alt=""  title="" />
+                                <p class="name">实用循证医学方法学</p>
+                                <p class="price">丁当：<em>920.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/d3.jpg" alt=""  title="" />
+                                <p class="name">医药大词典激活码</p>
+                                <p class="price">丁当：<em>200.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/d4.png" alt=""  title="" />
+                                <p class="name">丁香园抱枕</p>
+                                <p class="price">丁当：<em>499.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!--应用与软件-->
+            <section>
+                <h3><a href="">应用与软件</a>
+                    <a class="fr more" href="">More>></a>
+                </h3>
+                <ul>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/yao.png" alt=""  title="" />
+                                <p class="name">过滤鼻夹[妈咪爱]</p>
+                                <p class="price">丁当：<em>150.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="./img/l3.png" alt=""  title="" />
+                                <p class="name">实用循证医学方法学</p>
+                                <p class="price">丁当：<em>920.0</em></p>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!--实验室用品-->
+            <section>
+                <h3><a href="">实验室用品</a>
+                    <a class="fr more" href="">More>></a>
+                </h3>
+                <p>更多干货，敬请期待</p>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!--页脚-->
+<footer>
+    <div class="wrap">
+        <section class="dxy-web">
+            <h4>丁香园旗下网站</h4>
+            <ul>
+                <li><a href="">丁香园</a></li><!--
+                --><li><a href="">丁香通</a></li><!--
+                --><li><a href="">丁香人才</a></li><!--
+                --><li><a href="">丁香会议</a></li>
+            </ul>
+            <ul>
+                <li><a href="">丁香博客</a></li><!--
+                --><li><a href="">文献求助</a></li><!--
+                --><li><a href="">丁香医生</a></li><!--
+                --><li><a href="">丁香无线</a></li>
+            </ul>
+            <ul>
+                <li><a href="">用药助手</a></li><!--
+                --><li><a href="">丁香文档</a></li><!--
+                --><li><a href="">丁当铺</a></li><!--
+                --><li><a href="">丁香导航</a></li>
+            </ul>
+        </section>
+        <section class="about-dxy">
+            <h4>关于丁香园</h4>
+            <ul>
+                <li><a href="">关于我们 </a></li><!--
+                --><li><a href="">联系我们 </a></li><!--
+                --><li><a href="">版权声明 </a></li><!--
+                --><li><a href="">资格证书 </a></li>
+            </ul>
+            <ul>
+                <li><a href="">友情链接 </a></li><!--
+                --><li><a href="">加盟丁香园 </a></li>
+            </ul>
+        </section>
+        <section class="dxy-link">
+            <h4>官方链接</h4>
+            <ul>
+                <li><a href="">丁香志 </a></li><!--
+                --><li><a href="">编辑运营团队 </a></li><!--
+                --><li><a href="">丁香园新浪微博 </a></li><!--
+                --><li><a href="">丁香园腾讯微博 </a></li>
+            </ul>
+        </section>
+        <div class="clear"></div>
+        <div class="foot-p">
+            <p>Copyright 2000-2014 DXY All Rights Reserved.</p>
+            <p><a href="">浙B2-20070219(含BBS) </a><a href="">(浙)-经营性-2012-0008</a> 浙卫网审[2014] 40号</p>
+            <p>本网站用字经北京北大方正电子有限公司授权许可</p>
+        </div>
+    </div>
+</footer>
+<a href="javascript:void(0);" class="gotop_btn hide" id="gotTopButton" title="回到顶部" >&nbsp;</a>
+<!--引入js文件-->
+<script src="./js/jquery.js"></script><!--自定义js-->
+<script src="./js/dxy.js"></script><!--自定义js-->
+</body>
+</html>
